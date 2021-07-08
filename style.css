@@ -1,0 +1,283 @@
+body {
+    background-image: url(images/bg/bg4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    height: 165px;
+    background-image: url(images/jpg/header.jpg);
+}
+
+#main-header {
+    width: 1000px;
+    height: 165px;
+    margin: auto;
+    background-image: url(images/gif/main_header.gif);
+}
+
+#navigation {
+    height: 35px;
+    background-image: url(images/png/nav.png);
+}
+
+#main-navigation {
+    width: 1000px;
+    height: 35px;
+    margin: auto;
+    background-image: url(images/png/nav.png);
+}
+
+#main-navigation a {
+	text-decoration: none;
+	line-height: 35px;
+	font-size: 15px;
+	padding: 0px 57px;
+	color: #468c20;
+	border-left: 1px inset #cccccc;
+	border-right: 1px inset #cccccc;
+	float: left;
+}
+
+#main-navigation a:hover{
+	color: #ffffff;
+	background-color: #dddddd;
+	background-image: url(images/jpg/hover.jpg);
+}
+
+#headline {
+    height: 25px;
+    background-color: #eee;
+}
+
+#main-headline {
+    width: 1000px;
+    height: 25px;
+    margin: auto;
+    background-color: #eee;
+}
+
+#main-headline marquee{
+	color: #468c20;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+#content {
+    width: 940px;
+    padding: 30px;
+    margin: auto;
+    background-color: #fff;
+}
+
+#slide {
+    height: 180px;
+    background-color: #777;
+    margin: 10px 0;
+}
+
+#article1 {
+    height: 200px;
+    margin: 10px 0;
+}
+
+#article1 h1 {
+	margin: 0;
+	color: #32791e;
+	text-align: center;
+	font-size: 22px;
+}
+
+#article1 p{
+	color: #707070;
+	margin: 10px 0;
+	text-align: center;
+}
+
+
+#content1 {
+    height: 220px;
+    margin: 10px 0;
+}
+
+.content1-info {
+    width: 440px;
+    height: 220px;
+    margin: 0 15px;
+    float: left;
+}
+
+#article2 {
+    height: 250px;
+    margin: 10px 0;
+}
+
+#article2 h1 {
+	margin: 0;
+	color: #32791e;
+	text-align: center;
+	font-size: 22px;
+}
+
+#article2 p{
+	color: #707070;
+	margin: 10px 0;
+	text-align: center;
+}
+
+#content2 {
+    height: 200px;
+    margin: 10px 0;
+}
+
+.content2-info {
+    width: 283px;
+    height: 200px;
+    margin: 0 15px;
+    float: left;
+}
+
+#footer {
+    height: 350px;
+    background-image: url(images/jpg/footer.jpg);
+}
+
+#footer-top {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+}
+
+.footer-info {
+    width: 220px;
+    height: 300px;
+    margin: 0 15px;
+    float: left;
+}
+
+.footer-info h2{
+	margin: 0px;
+	color: #fefe01;
+	font-size: 20px;
+	border-bottom: 2px solid;
+}
+
+.footer-info p{
+	color: #ffffff;
+	text-align: justify;
+}
+.footer-info a {
+	color: #fefe01;
+	text-decoration: none;
+}
+.footer-info a:hover {
+	color: #efd910;
+	text-decoration: underline;	
+}
+.footer-info li{
+	color: #ffffff;
+	line-height: 30px;
+	list-style-image: url(images/png/clock.png);
+}
+
+.social {
+	height: 56px;
+	margin: 15px 0px;
+}
+.social-icon{
+	width: 56px;
+	height: 56px;
+	float: left;
+	margin-right: 10px; 
+}
+
+#footer-bottom {
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+    background-image: url(images/jpg/footer_bottom.jpg);
+}
+
+#footer-bottom p{
+	margin: 0;
+	text-align: center;
+	line-height: 50px;
+	color: #ffffff;
+}
+
+#footer-bottom a {
+	color: #fefe01;
+	text-decoration: none;
+}
+
+#footer-bottom a:hover {
+	color: #efd910;
+	text-decoration: underline;
+	
+}
+
+.about {
+	height: 230px;
+	margin: 15px 0px;
+	border: 1px solid #cccccc;
+	border-radius: 15px;
+}
+.about h1{
+	color: #0eb124;
+	font-size: 20px;
+	margin: 10px 0px;
+}
+.about p{
+	color: #5f5f5f;
+	margin: 10px;
+	text-align: justify;
+}
+.about-pix{
+	width: 200px;
+	height: 200px;
+	margin: 15px;
+	border-radius: 100px;
+	background-color: #7f7f7f;
+	float: left;
+}
+.about-pix img {
+	border-radius: 100px;
+}
+
+.gallery img{
+	margin: 15px;
+	border-radius: 25px;
+	width: 200px;
+	height: 200px; 
+	transition: 0.5s;
+}
+
+.gallery img:hover{
+	transform: scale(1.1);
+	filter: grayscale(100%);
+}
+
+#register fieldset{
+	border: 1px solid #0eb124;
+	border-radius: 5px;
+}
+
+#register legend{
+	color: #0eb124;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#register td{
+	line-height: 40px;
+	font-size: 15px;
+	color: #0eb124;
+}
+
+#contact h1{
+	color: #0eb124;
+	font-size: 25px;
+}
